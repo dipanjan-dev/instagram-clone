@@ -1,0 +1,44 @@
+.friend{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.friend .profile__info{
+    display: flex;
+    align-items: center;
+    
+}
+.friend .profile__info .MuiAvatar-root{
+   height: 32px;
+   width: 32px;
+   border: 0.5px solid #dfdfdf
+    
+}
+.friend .profile__info .profile__name{
+    line-height: 0;
+    margin-left: 10px;
+}
+.friend .profile__info .profile__name h4{
+    font-size: 14px;
+    line-height: 0;
+    font-weight: 600;
+}
+.friend .profile__info .profile__name p{
+    font-size: 12px;
+    line-height: 0;
+    color: #8e8e8e;
+    text-overflow: ellipsis;
+    overflow: hidden; 
+    width: 160px; 
+    height: 1.05em; 
+    white-space: nowrap;
+    line-height: 12px;
+    margin-top: -5px;
+}
+.friend .profile__info__button p{
+    font-size: 12px;
+    font-weight: 600;
+    color: #0095f6;
+    cursor: pointer;
+}

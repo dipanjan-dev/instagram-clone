@@ -1,0 +1,90 @@
+.post{
+    border: 1px solid #dfdfdf;
+    border-radius: 10px;
+    margin-top: 20px;
+    width: 470px;
+}
+.post .post__header{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 15px;
+    align-items: center;
+}
+.post .post__header .post__user{
+    display: flex;
+    align-items: center;
+}
+.post .post__header .post__user .MuiAvatar-root {
+    height: 30px;
+    width: 30px;
+}
+.post .post__header .post__user h4{
+    margin-left: 10px;
+    font-weight: 600;
+    font-size: 15px;
+}
+.post .post__content img{
+    width: 100%;
+}
+.post .post__bottom__option{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+}
+.post .post__bottom__option .post__main__option{
+    display: flex;  
+}
+.post .post__bottom__option .post__main__option .post__option{
+    margin-right: 15px;  
+}
+.post .post__bottom__option .post__main__option .post__option:hover{
+    cursor: pointer;
+}
+.post .post__bottom__option .post__other__option{
+    display: flex;
+
+}
+.post .post__bottom__option .post__other__option:hover{
+    cursor: pointer;
+}
+.post .post__bottom__caption{
+    padding: 0px 10px;
+}
+.post .post__bottom__caption span{
+    font-weight: 600;
+}
+.post .post__info{
+    padding: 0px 10px;
+}
+.post .post__info .post__view__comment p{
+    color: #727272;
+    font-size: 15px;
+}
+.post .post__info .post__view__comment p:hover{
+    cursor: pointer;
+}
+.post .post__info .post__view__timestamp p{
+    color: #727272;
+    font-size: 12px;
+}
+.post .post__comment{
+    display: flex;
+    align-items: center;
+    border-top: 1px solid #dfdfdf;
+}
+.post .post__comment .input-area{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 10px;
+    width: 100%;
+}
+.post .post__comment .input-area input{
+    width: 100%;
+    border: none;
+    background: none;
+    outline: none;
+    margin-left: 10px;
+    font-size: 16px;
+}

@@ -1,0 +1,52 @@
+.header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5px 200px;
+    border-bottom: 0.5px solid #e3e3e3;
+    position: sticky;
+    top: 0;
+    background-color: #fff;
+    z-index: 999;
+}
+.header .header__left img{
+    height: 40px;
+}
+.header .header__middle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header .header__middle .header__search{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #efefef;
+    padding: 5px 20px;
+    border-radius: 7px;
+}
+.header .header__middle .header__search input{
+    background: none;
+    border: 0;
+    outline: none;
+    border: none;
+    padding: 5px 20px;
+}
+.header .header__middle .header__search svg{
+    opacity: 0.5;
+}
+.header .header__right{
+    display: flex;
+    align-items: center;
+}
+.header .header__right .header__menu{
+    margin-right: 20px;
+}
+.header .header__right .header__menu svg{
+    cursor: pointer;
+}
+.header .header__right .header__menu .MuiAvatar-root {
+    height: 30px;
+    width: 30px;
+    cursor: pointer;
+}

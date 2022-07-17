@@ -1,0 +1,41 @@
+.story{
+    display: flex;
+    border: 1px solid #dfdfdf;
+    padding: 15px 10px;
+    width: 450px;
+    overflow: hidden;
+    border-radius: 10px;
+    align-items: center;
+}
+.story__user{
+    padding: 2px;
+    text-align: center;
+    border: 2px solid #bc2a8d;
+    border-radius: 50%;
+    
+}
+.story__user .MuiAvatar-root{
+    height: 50px;
+    width: 50px;
+}
+.story__wrap{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.story__wrap p{
+    text-align: center;
+    font-size: 10px;
+    font-weight: 500;
+    color: #6f6f6f;
+    overflow: hidden;
+    text-overflow: ellipsis; 
+}
+.story__user__name{
+    white-space: nowrap; 
+    width: 80px; 
+    overflow: hidden;
+    text-overflow: ellipsis; 
+}
